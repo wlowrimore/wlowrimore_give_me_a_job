@@ -1,0 +1,67 @@
+.img-container {  
+  animation: spread-out 2.8s ease-in-out;  
+}
+
+.skills-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6em;
+  height: 6em;
+  background: #ab9bae;
+  border: 0.1rem solid #f0def4;
+  padding: 0.8em;
+  border-radius: 50%;
+  box-shadow: 2px 4px 8px #3e3e3e;
+}
+
+@media screen and (max-width: 768px) {
+  .skills-img {
+    border-radius: 15px;
+    width: 8em;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    transform: scale(0);  
+    rotate:calc(180deg);  
+    opacity: 0;  
+  }
+  100% {
+    transform: scale(1.0);
+    opacity: 1;
+  }
+}
+
+@keyframes spread-out {
+  from {
+    height: 0%;
+    width: 0%;
+  }
+  to {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+p {  
+  animation: slide-left 0.5s ease-in-out;
+  animation-fill-mode: both;
+  animation-delay: 3.1s;
+}
+
+@keyframes slide-left {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+
+

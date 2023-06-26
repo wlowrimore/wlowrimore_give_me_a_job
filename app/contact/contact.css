@@ -1,0 +1,26 @@
+button {
+  display: bloxk;
+}
+
+#success-toast {
+  display: hidden;
+  animation: fade-out ease-out both;
+  animation-duration: 3s;
+  animation-delay: 5s;
+}
+
+#error-toast {
+  display: hidden;
+  animation: fade-out ease-out both;
+  animation-duration: 3s;
+  animation-delay: 5s;
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

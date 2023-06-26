@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: radial-gradient(circle, rgb(114, 114, 116) 0%, rgb(42, 42, 43) 60%, rgb(14, 18, 19) 100%);
+  
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+nav {
+  animation: slide-in-nav 0.4s forwards cubic-bezier(0.4, 1, 0.89, 1);
+}
+
+@keyframes slide-in-nav {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

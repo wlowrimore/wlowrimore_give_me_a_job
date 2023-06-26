@@ -1,0 +1,52 @@
+[
+  {
+    "id": "sk1",
+    "name": "The Trifecta",
+    "image": "/techLogos/trifecta.png"
+  },
+  {
+    "id": "sk2",
+    "name": "React",
+    "image": "/techLogos/react.png"
+  },
+  {
+    "id": "sk3",
+    "name": "Next JS",
+    "image": "/techLogos/nextjs.png"
+  },
+  {
+    "id": "sk4",
+    "name": "Tailwind CSS",
+    "image": "/techLogos/tailwindcss.png"
+  },
+  {
+    "id": "sk5",
+    "name": "Sass",
+    "image": "/techLogos/sass.png"
+  },
+  {
+    "id": "sk6",
+    "name": "Bootstrap",
+    "image": "/techLogos/bootstrapcss.png"
+  },
+  {
+    "id": "sk7",
+    "name": "Node JS",
+    "image": "/techLogos/nodejs2.png"
+  },
+  {
+    "id": "sk8",
+    "name": "API",
+    "image": "/techLogos/api.png"
+  },
+  {
+    "id": "sk9",
+    "name": "PostgreSQL",
+    "image": "/techLogos/postgresql.png"
+  },
+  {
+    "id": "sk10",
+    "name": "Vue JS",
+    "image": "/techLogos/vue.png"
+  }
+]
