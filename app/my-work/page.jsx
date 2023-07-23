@@ -27,7 +27,7 @@ const Card = ({ project }) => {
                 width={500}
                 height={500}
                 alt={project.title}
-                className="mb-2 hover:opacity-50"
+                className="mb-2 hover:opacity-50 w-[100%] h-[100%]"
               />
             </Suspense>
           </div>
@@ -79,13 +79,25 @@ const Projects = () => {
           click each image for details
         </span>
       </div>
-      <div className="flex flex-col items-center xl:grid xl:grid-cols-2 xl:mx-[6em]">
+      <div className="flex flex-col items-center xl:mx-[6em]">
         {projects.map((project, index) => (
           <Card project={project} key={`card-${index}`} priority={`${index}`} />
         ))}
+        <div class="mb-10">
+          <Link
+            href="https://www.github.com/wlowrimore"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="font-semibold text-xl px-3 mx-auto mb-6 text-blue-300 hover:text-purple-300"
+          >
+            See More Work
+          </Link>
+        </div>
       </div>
     </>
   );
 };
 
 export default Projects;
+
+// xl:grid xl:grid-cols-2

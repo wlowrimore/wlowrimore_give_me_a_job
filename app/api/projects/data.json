@@ -9,11 +9,11 @@
   },
   {
     "id": "mw2",
-    "title": "AARP",
-    "repo_url": "https://www.github.com/wlowrimore",
+    "title": "thePocket",
+    "repo_url": "https://www.github.com/wlowrimore_give_me_a_job",
     "deployed_url": "N/A",
-    "image": "/projectImages/aarpSite.png",
-    "description": "This is an Enterprise Website that I contributed to while working for Coroutine as a Junior Software Engineer.  My roles included: Annotation of custom HTML tags and Dynamically rendering Meta Data with Ruby on Rails.  This is a private code base"
+    "image": "/projectImages/thePocket.png",
+    "description": "Django-Python Full Stack Blog putting focus on the music community (particularly the rhythm section)."
   },
   {
     "id": "mw3",
@@ -22,45 +22,6 @@
     "deployed_url": "https://wlowrimore.github.io/berman_photo_6_22/index.html",
     "image": "/projectImages/sayreJoanSite.png",
     "description": "This is a mock website for a local client's photography business.  I used HTML, CSS, and JavaScript to create a simple yet effective and mobile responsive website.  It is also a simple SEO, with a meta description and meta keywords.  The client was very pleased with the outcome."
-  },
-  {
-    "id": "mw4",
-    "title": "Nash Clothing E-Commerce Site",
-    "repo_url": "https://www.github.com/wlowrimore/nash-clothing",
-    "deployed_url": "https://main--warm-marshmallow-8cdfc9.netlify.app/auth",
-    "image": "/projectImages/nash-clothing.png",
-    "description": "I built this site as a capstone project for Zero to Mastery's 'Complete React Developer in 2023' course.  It is a fully functional e-commerce site, with a cart, checkout, and payment processing.  It also has a sign-in and sign-up feature, as well as a Google sign-in feature."
-  },
-  {
-    "id": "mw5",
-    "title": "Coding Quiz",
-    "repo_url": "https://www.github.com/wlowrimore/vandy_bc_code_quiz_chlng4_2022",
-    "deployed_url": "N/A",
-    "image": "/projectImages/codeQuiz.png",
-    "description": "This is a timed quiz with multiple choice questions.  The user's score is based on the time remaining after the quiz is completed.  The user can save their score to local storage and view/clear it on the high scores page. This quiz was built using HTML, CSS, and JavaScript."
-  },
-  {
-    "id": "mw6",
-    "title": "Node JS Team Profile Generator",
-    "repo_url": "https://www.github.com/wlowrimore/vandy-bc-team-profile-generator-2022",
-    "deployed_url": "N/A",
-    "image": "/projectImages/teamProfileGenerator.png",
-    "description": "This application, when opened in the terminal, will prompt the user to enter information about their team.  Once all information is entered, the application will generate an HTML file that displays a nicely formatted team roster."
-  },
-  {
-    "id": "mw7",
-    "title": "Weather Dashboard",
-    "repo_url": "https://www.github.com/wlowrimore/vandy_bc_weather_dash_chlng_06_2022",
-    "deployed_url": "N/A",
-    "image": "/projectImages/weatherDashboard.png",
-    "description": "This Weather Dashboard is a simple application that allows the user to search for a city and view the current weather conditions, as well as the 5-day forecast.  The user's search history is saved to local storage and displayed on the page."
-  },
-  {
-    "id": "mw8",
-    "title": "Course and Code SEO",
-    "repo_url": "https://github.com/wlowrimore/nextjs_13_explained",
-    "deployed_url": "https://nextjs-13-explained.vercel.app/",
-    "image": "/projectImages/next13_SEO.png",
-    "description": "This application is the result of a course explaining the new app folder structure for routing, server api fetching with client side rendering, and the new SEO features of NextJS v13.4. As this application is a mock-up, there are certain features that are not fully functional."
   }
 ]
+  
